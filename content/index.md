@@ -1,25 +1,32 @@
 ---
 title: "Min fina titel"
+
+views:
+    byline:
+        region: main
+        template: anax/v2/block/default
+        sort: 2
+        data:
+            meta: 
+                type: single
+                route: block/byline
+
 ---
+
 Min me-sida i kursen design
 =========================
 
-Detta innehåll är skrivet i markdown och du hittar innehållet i filen `content/index.md`.
 
-[FIGURE src="image/me.jpg?w=500" class="right" caption="Bild på mig"]
+[FIGURE src="image/vine.jpg?height=500" class="right"]
 
-Detta är min me-sida i kursen. Denna sidan innehåller en presentation av mig själv. Underhåll denna sidan under hela kursen och uppdatera den efter hand och behov.
 
-Så, en presentation en bra början. Skriv några ord om dig själv. Jag börjar.
+Jag heter Anita Ramelius och jag är född, uppvuxen och bofast i Skåne.
 
-Mitt namn är Mikael Roos. Född och uppvuxen i Bankeryd, Småland, strax utanför Jönköping, i ett villaområde som byggdes upp samtidigt som vi flyttade in där. Jag gillade landhockey och har spelat bandy och hockey samt gått bowlinggymnasiet i Nässjö. Jag har varit städare, diskare, kallskänka, servitör och kock. På ett bananskal landade jag i Ronneby när jag började högskolan 1990 där och nu är jag kvar med fru, barn och så vidare.
+För fem år sedan flyttade jag till Malmö där jag jobbat i flera år, vilket gör att jag kan cykla till jobbbet och slipper tåg-pendla. Mycket av tiden jag fått över har jag tillbringat på gymmet, och från att ha varit värsta soff-potisen gillar jag nu att träna.
 
-Programmering har alltid intresserat mig sedan 13-årsåldern och min första dator var en Spectravideo 328 med bandspelare.
+Jag är intresserad av hur kost och motion påverkar vår hälsa och välbefinnande. Under de sista åren har jag gradvis försökt förändra min egen livsstil till att bli både hälsosammare och klimatvänligare. Eftersom jag jobbar i ett forsknings-team som ingår i Lunds Universitets Diabetes Center är det kanske inte så konstigt att detta ligger mig varmt om hjärtat.
 
-Om jag skall nämna någon hobby, förutom webbprogrammering, så får det bli att bära sten på sommarstugetomten, och det finns sten så det räcker och blir över.
+Jag älskar att resa och har haft turen att få resa en hel del i jobbet.
+De flesta arbetsresorna har varit till USA och inom Europa, men också till platser som jag kanske inte hade rest till på egen hand, som Jerusalem och Sydkorea.
 
-Till och från får jag för mig att börja på lite hobbies, ett år satsade jag på pokerspel, ett annat år var det geocaching och sedan turfing. Nu ligger jag lågt med hobbies, men något kanske dyker upp...?
-
-Vi syns och hörs i forum och chatt!
-
-/Mikael
+Datorn har alltid varit mitt främsta arbetsredskap och jag har alltid haft en hem-dator, men programmering är nytt för mig. Det är en utmaning och den första kursen i htmlphp var krävande, speciellt eftersom studiena ska göras utöver mitt heltidsjobb. Samtidigt är det kul och inspirerande att lära sig något nytt.
