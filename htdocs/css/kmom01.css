@@ -15,7 +15,7 @@ body {
 }
 
 a {
-    font-size: 1.2em;
+    font-size: 1em;
     color: #246e32;
     text-decoration: none;
     padding: 0 8px;
@@ -101,6 +101,8 @@ a:hover {
     display: inline;
     padding-top: 2px 10px;
 }
+
+
 /* Main*/
 
 .inner-wrap-main {
@@ -180,12 +182,24 @@ figure.figure.right {
 
 .inner-wrap-footer {
     padding: 30px 0;
+    width: 80%;
 }
 
 .region-footer> .block {
     padding-top: 30px;
     width: 100%;
     text-align: center;
+}
+
+.region-footer a {
+    font-size: 1em;
+    color: #fff;
+    text-decoration: none;
+    padding: 0 8px;
+}
+
+.region-footer a:hover {
+    color: #246e32;
 }
 
 .footer-column {

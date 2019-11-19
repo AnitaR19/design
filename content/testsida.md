@@ -1,3 +1,24 @@
+---
+views:
+    sidebar-left:
+        region: sidebar-left
+        template: anax/v2/block/default
+        data:
+            title: Sidebar left
+            meta: 
+                type: single
+                route: block/test-sidebar-left
+
+    sidebar-right:
+        region: sidebar-right
+        template: anax/v2/block/default
+        data:
+            title: Sidebar right
+            meta: 
+                type: single
+                route: block/test-sidebar-right
+---
+
 Test-sida
 =========================
 

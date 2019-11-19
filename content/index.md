@@ -1,5 +1,5 @@
 ---
-title: "Min fina titel"
+title: "Min webbsida"
 
 views:
     byline:
@@ -17,7 +17,7 @@ Min me-sida i kursen design
 =========================
 
 
-[FIGURE src="image/vine.jpg?height=500" class="right"]
+[FIGURE src="image/vine.jpg" class="right"]
 
 
 Jag heter Anita Ramelius och jag är född, uppvuxen och bofast i Skåne.

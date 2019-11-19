@@ -1,0 +1,227 @@
+/**
+ * Layout style for general structure of header, navbar, main, footer
+ * and other regions of the page including route specific styles.
+ */
+
+/**
+ * Variables
+ */
+
+
+/**
+ * General layout
+ */
+
+
+
+/* Container */
+
+/* .wrap-all {
+ *  background-color: #fff;
+ * }
+ */
+
+ .outer-wrap {
+    width: 100%;
+    overflow: auto;
+}
+
+.inner-wrap {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.row::after {
+    clear: both;
+}
+
+a {
+    font-size: 1em;
+    color: #000;
+    text-decoration: none;
+    padding: 0.5em;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Region header */
+
+.region-header {
+    padding: 1em 0;
+}
+
+.region-header-col-1,
+.region-header-col-2,
+.region-header-col-3, {
+    float: left;
+    overflow: hidden;
+}
+
+.region-header-col-1,
+.region-header-col-3 {
+    width: 20%;
+}
+
+.region-header-col-2 {
+    width: 60%;
+    text-align: center;
+}
+
+.site-logo img {
+    max-width: 25%;
+}
+
+.site-logo {
+    display: none;
+}
+
+/* Flash */
+
+.region-flash {
+    margin: 0;
+    text-align: center;
+}
+
+.flash-image {
+    padding: 0;
+}
+
+
+/* Breadcrumb*/
+
+
+/* Flash message */
+
+
+/* Columns above */
+
+
+/* Sidebar left */
+
+
+/* Region main */
+
+
+.inner-wrap-main {
+    overflow: auto;
+}
+
+.region-main {
+    max-width: 98%;
+    float: left;
+    padding: 0.5% 1%;
+    overflow: hidden;
+}
+
+.article {
+    min-height: 25em;
+    padding: 10px 0;
+}
+
+.block {
+    padding: 10px;
+}
+
+figure.figure.left  {
+    float: left;
+    overflow: hidden;
+ }
+
+figure.figure.right {
+    float: right;
+}
+
+figure.figure.left  {
+    float: left;
+}
+
+.row::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+
+
+/* Regions with side-bar*/
+
+
+.region-main.has-sidebar {
+    float: left;
+    width: 70%;
+    padding: 0 1%;
+}
+
+/* Sidebar left and right */
+
+.region-sidebar-right,
+.region-sidebar-left {
+    float: left;
+    width: 26%;
+    padding: 0 1%;
+}
+
+.region-sidebar a {
+    font-size: 1em;
+}
+
+.region-main.has-sidebar-left.has-sidebar-right {
+    float: left;
+    width: 48%;
+    padding: 0 1%;
+}
+
+.region-sidebar-right.has-sidebar-left,
+.region-sidebar-left.has-sidebar-right {
+    float: left;
+    width: 23%;
+    padding: 0 1%;
+}
+
+
+/* After main */
+
+
+/* Columns below */
+
+
+/* Footer*/
+
+.region-footer {
+    overflow: hidden;
+}
+
+.outer-wrap-footer {
+    background-color: #000;
+    color: white;
+}
+
+.inner-wrap-footer {
+    padding: 30px 0;
+}
+
+.region-footer> .block {
+    padding-top: 30px;
+    width: 100%;
+    text-align: center;
+}
+
+.footer-column {
+    display: inline;
+    float: left;
+    width: 31%;
+    margin-left: 1%;
+    margin-right: 1%;
+    padding-bottom: 10px;
+}
+
+.footer-column-x {
+    border-left: 1px solid #fff;
+    padding: 10px;
+}
+
+.footer-column-x.footer-column-3 {
+    border-right: 1px solid #fff;
+}
