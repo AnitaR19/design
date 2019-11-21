@@ -821,6 +821,9 @@ figure.figure.left {
   .rm-small {
     display: block;
   }
+  .toc {
+    display: none;
+  }
 }
 /**
  * Show off the regions used in the website, to ease styling.
