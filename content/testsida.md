@@ -22,38 +22,118 @@ views:
 Test-sida
 =========================
 
-# hello, This is Markdown Live Preview
+
+
+## Cold Little Heart
+
+Did you ever want it?
+
+Did you want it bad?
+
+Ohhh, my
+
+It tears me apart
+
+Did you ever fight it?
+
+All of the pain
+
+So much pride
+
+Running through my veins
 
 ----
-## what is Markdown?
-see [Wikipedia](https://en.wikipedia.org/wiki/Markdown)
 
-> Markdown is a lightweight markup language, originally created by John Gruber and Aaron Swartz allowing people "to write using an easy-to-read, easy-to-write plain text format, then convert it to structurally valid XHTML (or HTML)".
+Bleeding, I'm bleeding
 
-----
-## usage
-1. Write markdown text in this textarea.
-2. Click 'HTML Preview' button.
+My cold little heart
+
+Oh I, I can't stand myself
 
 ----
-## markdown quick reference
-# headers
 
-*emphasis*
+And I know
 
-**strong**
+In my heart, in this cold heart
 
-* list
+I can live or I can die
 
->block quote
+I believe if I just try
 
-    code (4 spaces indent)
+You believe in you and I
 
-[Markdown](https://daringfireball.net/projects/markdown/)
-[Smartypants](https://michelf.ca/projects/php-smartypants/)
+In you and I
 
-----
-## changelog
-* 2019-11-10
+In you and I
+
+In you and I
 
 ----
+
+Did you ever notice
+
+I've been ashamed
+
+All my life
+
+I've been playing games
+
+We can try and hide it
+
+It's all the same
+
+I've been losing you
+
+One day at a time
+
+----
+
+Bleeding, I'm bleeding
+
+My cold little heart
+
+Oh I, I can't stand myself
+
+----
+
+And I know
+
+In my heart, in this cold heart
+
+I can live or I can die
+
+I believe if I just try
+
+You believe in you and I
+
+In my heart, in this cold heart
+
+I can live or I can die
+
+I believe if I just try
+
+You believe in you and I
+
+In you and I
+
+In you and I
+
+In you and I ...
+
+----
+
+Maybe this time I can be strong
+
+But since I know who I am
+
+I'm probably wrong
+
+Maybe this time I can go far
+
+But thinking about where I've been
+
+Ain't helping me start
+
+----
+
+by Michael Kiwanuka

@@ -29,4 +29,6 @@ Jag är intresserad av hur kost och motion påverkar vår hälsa och välbefinna
 Jag älskar att resa och har haft turen att få resa en hel del i jobbet.
 De flesta arbetsresorna har varit till USA och inom Europa, men också till platser som jag kanske inte hade rest till på egen hand, som Jerusalem och Sydkorea.
 
-Datorn har alltid varit mitt främsta arbetsredskap och jag har alltid haft en hem-dator, men programmering är nytt för mig. Det är en utmaning och den första kursen i htmlphp var krävande, speciellt eftersom studiena ska göras utöver mitt heltidsjobb. Samtidigt är det kul och inspirerande att lära sig något nytt.
+Datorn har alltid varit mitt främsta arbetsredskap och jag har alltid haft en hem-dator, men programmering är nytt för mig. Det är en utmaning och den första kursen i htmlphp var krävande, speciellt eftersom studierna ska göras utöver mitt heltidsjobb. Samtidigt är det kul och inspirerande att lära sig något nytt.
+
+----

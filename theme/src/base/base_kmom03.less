@@ -1,0 +1,92 @@
+/**
+ * Base style to affect HTML elements on a general scale.
+ */
+
+@bgColorHtml: #fff;
+@bgColorBody: #fff;
+@colorBody: #000;
+
+
+html {
+    overflow-y: scroll;
+    background-color: @bgColorHtml;
+    font-size: 100%;
+}
+
+@media (min-width: 64em) {
+    html {
+        font-size: 112.5%;
+    }
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    color: @colorBody;
+    background-color: @bgColorBody;
+    #desinax-hgrid.font(@fontSizeBody);
+}
+
+
+img {
+    max-width: 100%;
+}
+
+ 
+// Activate grid and affect all typographic elements
+#desinax-hgrid.activateDefaultTypography();
+ 
+
+/* Links*/
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Typographic defaults.
+*/
+// Magic number and base fontsize
+@magicNumber:  22px; /* choose between 22px or 24px to be able to show the hgrid */
+@fontSizeBody: 16px;
+
+// Default font-families
+@fontFamilyHeadings: "serif";
+@fontFamilyBody:     "sans-serif";
+@fontFamilyCode:     "monospace";
+
+
+p {
+    font-size: @fontSizeBody;
+    margin-bottom: @magicNumber;
+}
+
+h1 {
+    font-size: 2.4*@fontSizeBody;
+    margin-bottom: 1.4*@magicNumber;
+}
+
+h2 {
+    font-size: 2*@fontSizeBody;
+    margin-bottom: 1.2*@magicNumber;
+}
+
+h3 {
+    font-size: 1.6*@fontSizeBody;
+    margin-bottom: @magicNumber;
+}
+
+h4 {
+    font-size: 1.4*@fontSizeBody;
+    margin-bottom: @magicNumber;
+}
+
+
+@import url('https://fonts.googleapis.com/css?family=Solway&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+@fontFamilyHeadings: 'Solway', serif;
+@fontFamilyBody:     'Open Sans', sans-serif;

@@ -1,4 +1,4 @@
-#### Kursmoment i kursen design
+#### Kursmoment
 
 [01. Ramverk, innehåll, style](https://dbwebb.se/kurser/design-v2/kmom01)
 

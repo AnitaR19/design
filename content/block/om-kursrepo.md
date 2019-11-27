@@ -1,10 +1,10 @@
 Kursen PA1436 ingår i kurspaketet Webbprogrammering och databaser,
 30 hp, på Blekinge tekniska högskola.
 
-mer infirmation finns på db-webb:
+Mer information om kursen finns på dbwebb:
 
-[dbwebb.se/kurser/design-v2](https://dbwebb.se/kurser/design-v2)
+[<i class="fas fa-caret-right fa-1x"> </i>dbwebb.se/kurser/design-v2](https://dbwebb.se/kurser/design-v2)
 
-och på GitHub:
+Kursens GitHub repo:
 
-[github.com/dbwebb-se/design](https://github.com/dbwebb-se/design)
+[<i class="fas fa-caret-right fa-1x"> </i> github.com/dbwebb-se/design](https://github.com/dbwebb-se/design)
