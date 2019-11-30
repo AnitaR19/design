@@ -1,0 +1,138 @@
+/* Layout kmom04 minimalistic */
+
+
+/* Fonts in minimalistic */
+@import url('https://fonts.googleapis.com/css?family=Raleway:300&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+@fontFamilyHeadings: 'Raleway', sans-serif;
+@fontFamilyBody:     'Open Sans', sans-serif;
+
+
+@bgColorHtml: #fff;
+@bgColorBody: #fff;
+@bgColorMain: #fff;
+@bgColorAlt1: #e3e3e3;
+@submenuBgColor: #e3e3e3;
+@colorBody: #000;
+@colorHover: #CC0A0E;
+@colorVisited: #c3c3c3;
+
+
+html {
+    overflow-y: scroll;
+    background-color: @bgColorHtml;
+    font-size: 100%;
+}
+
+@media (min-width: 64em) {
+    html {
+        font-size: 112.5%;
+    }
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    color: @colorBody;
+    background-color: @bgColorBody;
+    #desinax-hgrid.font(@fontSizeBody);
+}
+
+hr::after {
+    content: none;
+}
+
+.row {
+    #desinax-vgrid.row();
+    margin-bottom:@magicNumber;
+}
+
+.inner-wrap {
+    background-color: @bgColorMain;
+
+}
+
+.outer-wrap-header {
+    background-color: @bgColorMain;
+}
+
+.outer-wrap-flash {
+    background-color: @bgColorMain;
+}
+
+.outer-wrap-footer {
+    background-color: @bgColorMain;
+}
+
+.inner-wrap-header,
+.inner-wrap-footer {
+    background-color: transparent;
+}
+
+.inner-wrap-footer {
+    #desinax-vgrid.grid(1100px);
+}
+
+
+/* Flash */
+
+.inner-wrap-flash {
+    background-color: @bgColorMain;
+}
+
+/* Breadcrumb */
+
+.region-breadcrumb {
+    background-color: @bgColorMain;
+}
+
+/* Main */
+
+.region-main {
+    min-height: 30rem;
+}
+
+
+/* Links*/
+
+
+a {
+    text-decoration: underline;
+    color: @colorBody;
+}
+
+a:visited {
+    color: @colorVisited;
+}
+
+a:hover {
+    color: @colorHover;
+}
+
+
+
+/* Navbar*/
+
+.site-logo-text a,
+.rm-desktop li a {
+    text-decoration: none;
+    color: @colorBody;
+}
+
+.rm-desktop li a:hover {
+    text-decoration: none;
+    color: @colorHover;
+}
+
+
+
+/* Other text styles */
+
+code {
+    background-color: @bgColorAlt1;
+}
+
+h1 {
+    text-transform: uppercase;
+}

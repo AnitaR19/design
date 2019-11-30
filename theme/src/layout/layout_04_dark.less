@@ -1,0 +1,142 @@
+/* Specific layout kmom04 dark */
+
+/* Fonts in dark */
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Raleway:300&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+@fontFamilyHeadings: 'Dancing Script', cursive;
+@fontFamilyHeadings2: 'Raleway', sans-serif;
+@fontFamilyBody:     'Open Sans', sans-serif;
+
+
+@bgColorHtml: #1f1f1f;
+@bgColorBody: #1f1f1f;
+@bgColorMain: #1f1f1f;
+@bgColorAlt1: #000;
+@submenuBgColor: #000;
+@colorBody: #fff;
+@colorHeaderAlt: #bb9f03cb;
+@colorHover: #0d09f3;
+@colorVisited: #c3c3c3;
+
+
+
+html {
+    overflow-y: scroll;
+    background-color: @bgColorHtml;
+    font-size: 100%;
+}
+
+@media (min-width: 64em) {
+    html {
+        font-size: 112.5%;
+    }
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    color: @colorBody;
+    background-color: @bgColorBody;
+    #desinax-hgrid.font(@fontSizeBody);
+}
+
+hr::after {
+    content: none;
+}
+
+.row {
+    #desinax-vgrid.row();
+    margin-bottom:@magicNumber;
+}
+
+.inner-wrap {
+    background-color: @bgColorMain;
+
+}
+
+.outer-wrap-header {
+    background-color: @bgColorAlt1;
+}
+
+.outer-wrap-flash {
+    background-color: @bgColorMain;
+}
+
+.outer-wrap-footer {
+    background-color: @bgColorMain;
+}
+
+.inner-wrap-header,
+.inner-wrap-footer {
+    background-color: transparent;
+}
+
+
+
+/* Flash */
+
+.inner-wrap-flash {
+    background-color: @bgColorAlt1;
+}
+
+/* Breadcrumb */
+
+.region-breadcrumb {
+    background-color: @bgColorMain;
+}
+
+
+.region-main {
+    min-height: 30rem;
+}
+
+
+/* Links*/
+
+
+a {
+    text-decoration: underline;
+    color: @colorBody;
+}
+
+a:visited {
+    color: @colorVisited;
+}
+
+a:hover {
+    color: @colorHover;
+}
+
+
+
+/* Navbar*/
+
+.site-logo-text a,
+.rm-desktop li a {
+    text-decoration: none;
+    color: @colorBody;
+}
+
+.rm-desktop li a:hover {
+    text-decoration: none;
+    color: @colorHover;
+}
+
+
+
+/* Other text styles */
+
+code {
+    background-color: @bgColorAlt1;
+}
+
+
+h2,
+h3,
+h4 {
+    font-family: @fontFamilyHeadings2;
+    text-transform: uppercase;
+    color:@colorHeaderAlt;
+}

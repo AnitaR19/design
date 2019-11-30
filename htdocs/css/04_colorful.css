@@ -1,7 +1,7 @@
 /*!
- * Stylesheet for design kmom03.
+ * Stylesheet for design kmom04.
  *
- * This stylesheet is for the design course and kmom03 where we use grid.
+ * This stylesheet is for the design course kmom04 themes with different color themes.
  */
 /**
  * Import mixins.
@@ -414,7 +414,7 @@ a.rm-button.rm-clicked .rm-button-face-2 {
  * Menu layout for the desktop variant, usually full width of browser.
  */
 .rm-desktop ul {
-  background-color: #00806bd0;
+  background-color: #3ea1a8;
 }
 .rm-desktop li {
   position: relative;
@@ -593,7 +593,7 @@ a.rm-button.rm-clicked .rm-button-face-2 {
  */
 html {
   overflow-y: scroll;
-  background-color: #fff;
+  background-color: #ffb35c;
   font-size: 100%;
 }
 @media (min-width: 64em) {
@@ -605,7 +605,7 @@ body {
   margin: 0;
   padding: 0;
   color: #000;
-  background-color: #fff;
+  background-color: #ffb35c;
   font: 16px/1.375 'Open Sans', sans-serif;
 }
 img {
@@ -617,7 +617,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Solway', serif;
+  font-family: 'Architects Daughter', cursive;
   margin-top: 22px;
   margin-bottom: 22px;
 }
@@ -950,59 +950,6 @@ h4 {
      * Pull a column right @offset columns.
      */
 }
-/* Specific layout kmom03 */
-/* Fonts in kmom03 */
-@font-face {
-  font-family: 'Solway';
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: local('Solway Regular'), local('Solway-Regular'), url(https://fonts.gstatic.com/s/solway/v1/AMOQz46Cs2uTAOCmhXo5.ttf) format('truetype');
-}
-@font-face {
-  font-family: 'Open Sans';
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: local('Open Sans Regular'), local('OpenSans-Regular'), url(https://fonts.gstatic.com/s/opensans/v17/mem8YaGs126MiZpBA-UFVZ0e.ttf) format('truetype');
-}
-.inner-wrap {
-  background-color: floralwhite ;
-}
-.outer-wrap-header,
-.outer-wrap-footer {
-  background-color: #00806b;
-}
-.inner-wrap-header,
-.inner-wrap-footer {
-  background-color: transparent;
-}
-/* Flash */
-.region-flash {
-  background-color: #fff;
-}
-/* Breadcrumb */
-.region-breadcrumb {
-  background-color: #fff;
-}
-/* Links*/
-a {
-  text-decoration: none;
-  color: #000000;
-}
-a:hover {
-  text-decoration: underline;
-}
-/* Navbar*/
-.site-logo-text a,
-.rm-desktop li a {
-  text-decoration: none;
-  color: #fff;
-}
-.rm-desktop li a:hover {
-  text-decoration: none;
-  color: #000;
-}
 /**
  * Layout using vertical grid
  */
@@ -1191,6 +1138,186 @@ figure.figure.right {
 /* Navbar*/
 .rm-desktop li a {
   display: block;
+}
+/* Layout layout kmom04 colorful */
+/* Fonts in colorful */
+@font-face {
+  font-family: 'Architects Daughter';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Architects Daughter Regular'), local('ArchitectsDaughter-Regular'), url(https://fonts.gstatic.com/s/architectsdaughter/v10/KtkxAKiDZI_td1Lkx62xHZHDtgO_Y-bvTYlg5g.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Open Sans Regular'), local('OpenSans-Regular'), url(https://fonts.gstatic.com/s/opensans/v17/mem8YaGs126MiZpBA-UFVZ0e.ttf) format('truetype');
+}
+html {
+  overflow-y: scroll;
+  background-color: #ffb35c;
+  font-size: 100%;
+}
+@media (min-width: 64em) {
+  html {
+    font-size: 112.5%;
+  }
+}
+body {
+  margin: 0;
+  padding: 0;
+  color: #000;
+  background-color: #ffb35c;
+  font: 16px/1.375 'Open Sans', sans-serif;
+}
+hr::after {
+  content: none;
+}
+.row {
+  display: block;
+  width: 101.04166667%;
+  margin-left: -0.52083333%;
+  margin-right: -0.52083333%;
+  margin-bottom: 22px;
+}
+.row::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.inner-wrap {
+  background-color: #ffb35c;
+}
+.outer-wrap-header {
+  background-color: #ffb35c;
+}
+.outer-wrap-flash {
+  background-color: #ffb35c;
+}
+.outer-wrap-footer {
+  background-color: #ffb35c;
+}
+.inner-wrap-footer {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 80%;
+  background-color: #3ea365;
+}
+.site-footer {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 80%;
+}
+/* Flash */
+.inner-wrap-flash {
+  background-color: #ffb35c;
+}
+/* Breadcrumb */
+.region-breadcrumb {
+  background-color: #ffb35c;
+}
+/* Main */
+.region-main.has-sidebar-right {
+  display: inline;
+  float: left;
+  width: 69.79166667%;
+  margin-left: 0.52083333%;
+  margin-right: 0.52083333%;
+}
+.region-main.has-sidebar-left {
+  display: inline;
+  float: left;
+  width: 73.95833333%;
+  margin-left: 0.52083333%;
+  margin-right: 0.52083333%;
+  margin-left: 4.6875%;
+}
+.region-main.has-sidebar-left.has-sidebar-right {
+  display: inline;
+  float: left;
+  width: 48.95833333%;
+  margin-left: 0.52083333%;
+  margin-right: 0.52083333%;
+  margin-left: 4.6875%;
+}
+/* Sidebars */
+.region-sidebar-left {
+  display: inline;
+  float: left;
+  width: 23.95833333%;
+  margin-left: 0.52083333%;
+  margin-right: 0.52083333%;
+  margin-left: -3.64583333%;
+}
+.region-sidebar-right {
+  display: inline;
+  float: left;
+  width: 23.95833333%;
+  margin-left: 0.52083333%;
+  margin-right: 0.52083333%;
+  margin-left: 4.6875%;
+}
+.region-sidebar-right.has-sidebar-left {
+  display: inline;
+  float: left;
+  width: 23.95833333%;
+  margin-left: 0.52083333%;
+  margin-right: 0.52083333%;
+  margin-left: 4.6875%;
+}
+.region-sidebar-left.has-sidebar-right {
+  display: inline;
+  float: left;
+  width: 23.95833333%;
+  margin-left: 0.52083333%;
+  margin-right: 0.52083333%;
+  margin-left: -7.8125%;
+}
+/* Block styles */
+.region-main .block {
+  background-color: floralwhite;
+}
+.region-sidebar-left .block {
+  background-color: #ee61a8;
+}
+.region-sidebar-right .block {
+  background-color: #3ea1a8;
+}
+.site-footer .block {
+  background-color: #3ea365;
+}
+.article {
+  background-color: floralwhite;
+}
+fieldset {
+  background-color: floralwhite;
+}
+/* Links*/
+a {
+  text-decoration: underline;
+  color: #000;
+}
+a:visited {
+  color: #636363;
+}
+a:hover {
+  color: floralwhite;
+}
+/* Navbar*/
+.site-logo-text a,
+.rm-desktop li a {
+  text-decoration: none;
+  color: #000;
+}
+.rm-desktop li a:hover {
+  text-decoration: none;
+  color: floralwhite;
+}
+/* Other */
+code {
+  background-color: #3ea365;
 }
 /**
  * Layout style for general structure of header, navbar, main, footer

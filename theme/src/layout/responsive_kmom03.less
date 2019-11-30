@@ -28,22 +28,26 @@
     .region-main {
         #desinax-vgrid.column(@columns);
     }
+    .inner-wrap-footer {
+        #desinax-vgrid.grid(100%);
+    } 
 }
 
 @media screen and (max-width: 800px) {
+    
+    .region-main.has-sidebar-right,
+    .region-main.has-sidebar-left,
+    .region-main.has-sidebar-left.has-sidebar-right,
+    .region-sidebar-left,
     .region-sidebar-right,
-    .region-sidebar-left, {
+    .region-sidebar-left.has-sidebar-right,
+    .region-sidebar-right.has-sidebar-left {
         #desinax-vgrid.column(@columns);
         #desinax-vgrid.push(0);
     }
 
     .toc {
         display: none;
-    }
-
-    .region-sidebar-right.has-sidebar-left,
-    .region-sidebar-left.has-sidebar-right {
-        #desinax-vgrid.column(@columns);
     }
 
     h1 {
