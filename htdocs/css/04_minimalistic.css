@@ -1220,6 +1220,13 @@ hr::after {
 .region-main {
   min-height: 30rem;
 }
+.footer-column {
+  display: inline;
+  float: left;
+  width: 32.29166667%;
+  margin-left: 0.52083333%;
+  margin-right: 0.52083333%;
+}
 /* Links*/
 a {
   text-decoration: underline;

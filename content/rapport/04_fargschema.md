@@ -3,17 +3,21 @@
 Rapport kmom04
 =========================
 
-Uppgiften var att undersöka och dokumentera vilka färger och typsnitt som användes på tre olika webbplatser.
-Webbplatserna skulle analyserades utifrån deras val av färger. Vilken känsla vill webbplatsen signalera?
+Uppgiften var att undersöka och dokumentera vilka färger och typsnitt
+som användes på tre olika webbplatser. Webbplatserna skulle analyserades
+utifrån deras val av färger. Vilken känsla vill webbplatsen signalera?
+
 
 
 Urval
 -----------------------
 
-Jag valde att undersöka webbplatser som jag besökt tidigare. Den första, Lunds Universitet är min arbetsplats.
-De andra två är webbsidor för näthandel, Coop är en matbutik, Stadium säljer sportartiklar. Anledningen till
-att jag valde Lunds Universitets webb-plats är att jag inte gillar den alls och alltid förundrats över färgvalet.
-Stadium och Coop valde jag för att de har helt olika färgpaletter, både jämfört med LU och varandra.
+Jag valde att undersöka webbplatser som jag besökt tidigare. Den första,
+Lunds Universitet är min arbetsplats. De andra två är webbsidor för näthandel,
+Coop är en matbutik, Stadium säljer sportartiklar. Anledningen till
+att jag valde Lunds Universitets webb-plats är att jag inte gillar den
+alls och alltid förundrats över färgvalet. Stadium och Coop valde jag för
+att de har helt olika färgpaletter, både jämfört med LU och varandra.
 
 
 
@@ -32,18 +36,19 @@ Följande parametrar undesöktes:
 
 7. Vilken eller vilka typsnitt används?
 
+Verktyg som använts är kurslitteraturen och Adobe's color wheel.
+
 
 
 Resultat
 -----------------------
-
 
 #### Lunds Universitet
 [FIGURE src="image/LU.png"]
 
 <table style="border-spacing: 4px; border-collapse: separate">
 <tr>
-<td style="height: 50px; width: 50px; background-color: navy">
+<td style="height: 50px; width: 50px; background-color: #000080">
 <td style="height: 50px; width: 50px; background-color: #9c6114">
 <td style="height: 50px; width: 50px; background-color: #dfefe8">
 <td style="height: 50px; width: 50px; background-color: #fbe5f0;">
@@ -55,12 +60,14 @@ Resultat
 </tr>
 </table>
 
-Det finns ingen direkt dominerande färg på Lunds universitets hemsida. Backgrundsfärgerna är vitt,
-tre ljusa pastellfärger samt ljust beige och ljust grått. Universitetet logotyp har färgerna brunt
-och marinblått. Den bruna färgen återkommer i ramar och symboler och som bakgrundsfärg till mindre
-element. Även den blå färgen används som bakgrundsfärg på mindre element, men mer sparsamt.
-Fontfärgerna är brunt, vitt och en mörkt grå nyans som uppfattas som svart. Till rubrikerna, som
-ibland är endast versaler, har man valt Georgia serif. Brödtexten är Arial sans-serif.
+Det finns ingen direkt dominerande färg på Lunds universitets hemsida.
+Backgrundsfärgerna är vitt, fyra ljusa pastellfärger samt ljust grått.
+Universitetet logotyp har färgerna brunt och marinblått. Den bruna färgen
+återkommer i ramar och symboler och som bakgrundsfärg till mindre element.
+Även den blå färgen används som bakgrundsfärg på mindre element, men mer
+sparsamt. Fontfärgerna är brunt, vitt och en mörkt grå nyans som uppfattas
+som svart. Till rubrikerna, som ibland är endast versaler, har man valt
+Georgia serif. Brödtexten är Arial sans-serif.
 
 
 
@@ -78,10 +85,12 @@ ibland är endast versaler, har man valt Georgia serif. Brödtexten är Arial sa
 </tr>
 </table>
 
-På COOP's webbplats använder man sparsamt med färger. Egentligen finns det bara en färg och det är grönt
-i tre olika nyanser. Man använder två bakgrundsfärger, en mycket ljus grå och vitt. Logotypen är också grön.
-Fontfärgerna är mörkgrönt, vitt och #333. Till rubrikerna, har man valt en egen font som man callar CoopNew,
-till brödtexten Akkurat med en storlek på 16px. Båda typsnitten är av typen sans-serif.
+På Coops webbplats använder man sparsamt med färger. Egentligen finns det
+bara en färg och det är grönt i tre olika nyanser. Man använder två
+bakgrundsfärger, en mycket ljus grå och vitt. Logotypen är också grön.
+Fontfärgerna är mörkgrönt, vitt och #333. Till rubrikerna, har man valt
+en egen font som man callar CoopNew, till brödtexten Akkurat. Båda
+typsnitten är av typen sans-serif.
 
 
 #### Stadium
@@ -102,49 +111,69 @@ till brödtexten Akkurat med en storlek på 16px. Båda typsnitten är av typen 
 </tr>
 </table>
 
-Stadium använder sig av gråskalan, svart-vitt och däremellan tre nyanser av grått är vad som dominerar
-deras webbplats. Även logotypen är svart. Sidorna har olika accentfärger, orange är den som förekommer
-oftast, ibland tillsammans med rött. Andra sidor har gult eller cerise som accentfärg. Även stadium har
-sitt eget typsnitt StadiumSansW01, en sans-serif font som används både för rubriker och brödtext.
-Bakgrundsfärgerna och accentfärgerna används även som fontfärger.
+Stadium använder sig av gråskalan, svart-vitt och däremellan tre nyanser
+av grått är vad som dominerar deras webbplats. Även logotypen är svart.
+Sidorna har olika accentfärger, orange är den som förekommer oftast, ibland
+tillsammans med rött. Andra sidor har gult eller cerise som accentfärg.
+Även stadium har sitt eget typsnitt StadiumSansW01, en sans-serif font
+som används både för rubriker och brödtext. Bakgrundsfärgerna och accentfärgerna
+används även som fontfärger.
+
 
 
 
 Analys
 -----------------------
 
-Diskutera och analysera de resultaten du fann.
+#### Lunds Universitet
+Den återkommande färgen på Lunds Universitet finns i Universitetets logotype
+och är en brun färg som påminner om vörtbröd. Den andra färgen i logotypen är
+marinblå. Dessa färger är på motsatta sidor i färghjulet, dvs nästan komplimentära.
+Brun färg står för närhet till jorden och symboliserar trygghet och stabilitet,
+blått kan associeras med intelligens och öppenhet. Jag har alltid tyckt att att
+de två färgerna passar dåligt ihop, men det kanske fanns en tanke bakom färgvalet. 
+Utöver vitt och ljust grått används som bakgrundsfärger väldigt ljusa pastellnyanser
+av de fyra grundfärgerna blått, rött, grönt och gult. Typsnitten är traditionella
+och sidan innehåller mycket text, textstorleken är ofta liten. Färgval och typsnitt
+känns lite gammaldags. Jag vet inte riktigt vad de vill förmedla med färgerna.
+Trygghet, stabilitet och traditioner kombinerat med ungdomlighet och ljusa framtidsutsikter?
 
-Textanalys
-Textanalys undersöks vilket utseende texterna i har.
-Här fastställs vilka teckensnittsfamiljer rubrikerna och brödtexterna tillhör -antingen serif eller sanserif,
-dvs med eller utan de klaffar som finns vid bokstävernas topp eller botten
-Valet mellan sanserif och antikva kan påverka läsningen av en text.
-Här undersöks även om rubrikerna är i versaler eller i gemener.
-Text i gemena, små bokstäver,underlättar läsningen då bokstävernas upp-och nedstaplar skapar en varierande siluett medan text i versaler,
-11 STORA BOKSTÄVER, kan vara svår att läsa eftersom man ofta läser gemena bokstäver var för sig istället för som ett sammanhängande ord.
 
+#### Coop
+Coops webbplats är monokromt grön. Grönt är den snällaste färgen för ögat och den
+ska ha en lugnande och uppfriskande effekt. Den symboliserar också natur och miljövänlighet,
+vilket är en viktigt faktor idag. Många konsumenter vill göra klimatsmarta val och
+Coop vill tydligen profilera sig som ett företag som tänker på naturen. Utöver grönt är
+det endast vitt, grått och svart som används, vilket ger ett avskalat och lungt intryck.
+Här används endast sans serif typsnitt, runda mjuka bokstäver som är lätta att läsa. 
+
+
+#### Stadium
+Stadium använder sig nästan uteslutande av "icke-färgerna" vitt, grått och svart på sin
+webbplats. Jag undrar lite om det är på grund av Black Friday eller om det alltid är så.
+Svart är kanske en lite hård färg för en sportaffär? Med svart förmedlar man en känsla av
+makt, elegans och styrka, som kompletteras med vitt som symboliserar perfektion, ljus
+och renhet. Mer väntat för en sportbutik var kanske deras val av accentfärger, som är orange,
+rött, cerise och gult. Förutom orange och rött blandas inte dessa fäger utan används var för sig.
+Rött, orange och gult är alla aktiva och energiska färger som ska kunna stimulera metabolism,
+aptit, energi och kreativitet. De har också en förmåga att sticka ut, vilket gör dem till bra
+accentfärger. Typsnittet som används är en neutral sans serif som ger bra läsbarhet.
 
 
 Referenser
 -----------------------
+Beaird, Jason; George, James. The Principles of Beautiful Web Design, 3rd Edition.
 
-Ange de eventuella referenser du använder dig av, om några.
+[https://www.foretagande.se/skoj-lasning/om-farger-och-fargers-betydelse](https://www.foretagande.se/skoj-lasning/om-farger-och-fargers-betydelse)
+
+[https://color.adobe.com/create/color-wheel/](https://color.adobe.com/create/color-wheel/)
+
 
 Övrigt
 -----------------------
 
+Stadiums webbplats var svart förra veckan pga av Black Friday. Denna veckan är bilderna anpassade efter vinter och jul.
+Grundfärger och accentfärger är samma dock.
+
+
 Rapporten gjordes av Anita Ramelius.
-
-
-
-
-
-
-Berätta om du använda något särskilt verktyg för att göra färganalysen (metod).
-Dokumentera och visualisera färgpaletten som används.
-Notera vilken typ av färgschema som använts.
-Notera om och vilken accentfärg som använts.
-Notera val av typsnitt för H1-H3 samt brödtext, kommentera om det är serif eller sans-serif.
-Notera i en mening om du anser att webbplatsens färgval och typografi motsvarar den profil du tror att webbplatsen vill ha.
-Skriv ett stycke om dina samlade intryck från resultatet, finns det något värt att nämna, diskutera, att analysera (analys), fick du fram något bra med din studie?

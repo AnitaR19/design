@@ -1303,7 +1303,7 @@ a:visited {
   color: #636363;
 }
 a:hover {
-  color: floralwhite;
+  color: #fffaf0;
 }
 /* Navbar*/
 .site-logo-text a,
@@ -1313,7 +1313,10 @@ a:hover {
 }
 .rm-desktop li a:hover {
   text-decoration: none;
-  color: floralwhite;
+  color: #fffaf0;
+}
+.article a:hover {
+  color: #3ea365;
 }
 /* Other */
 code {

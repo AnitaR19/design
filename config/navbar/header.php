@@ -35,6 +35,21 @@ return [
                         "url" => "redovisning/kmom03",
                         "title" => "Redovisning för kmom03.",
                     ],
+                    [
+                        "text" => "Kmom04",
+                        "url" => "redovisning/kmom04",
+                        "title" => "Redovisning för kmom04.",
+                    ],
+                    [
+                        "text" => "Kmom05",
+                        "url" => "redovisning/kmom05",
+                        "title" => "Redovisning för kmom05.",
+                    ],
+                    [
+                        "text" => "Kmom06",
+                        "url" => "redovisning/kmom06",
+                        "title" => "Redovisning för kmom06.",
+                    ],
                 ],
             ],
         ],
@@ -46,18 +61,18 @@ return [
                 "items" => [
                     [
                         "text" => "Kmom04",
-                        "url" => "rapport/04_fargschema",
-                        "title" => "Rapport för kmom04.",
+                        "url" => "rapport/fargschema",
+                        "title" => "Rapport kmom04.",
                     ],
                     [
                         "text" => "Kmom05",
                         "url" => "rapport/kmom05",
-                        "title" => "Rapport för kmom05.",
+                        "title" => "Rapport kmom05.",
                     ],
                     [
                         "text" => "Kmom06",
                         "url" => "rapport/kmom06",
-                        "title" => "rapport för kmom06.",
+                        "title" => "Rapport kmom06.",
                     ],
                 ],
             ],
