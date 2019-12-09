@@ -25,7 +25,6 @@
 }
 
 
-
 /* Show vertical grid */
 
 .vgrid .inner-wrap {
@@ -52,12 +51,12 @@
 
 .region-header-col-1,
 .region-header-col-3 {
-    #desinax-vgrid.column(4);
+    #desinax-vgrid.column(2);
     margin-bottom: 0.5*@magicNumber;
 }
 
 .region-header-col-2 {
-    #desinax-vgrid.column(16);
+    #desinax-vgrid.column(20);
     margin-bottom: 0.5*@magicNumber;
     text-align: center;
     .rm-desktop a {
@@ -203,4 +202,10 @@ figure.figure.right {
 
 .rm-desktop li a {
     display: block;
+}
+
+
+/* If I don't use this correction I will get a max-width of 101% and a horizontal scrollbar */
+.row {
+    max-width: 100%;
 }

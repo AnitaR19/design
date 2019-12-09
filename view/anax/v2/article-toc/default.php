@@ -22,7 +22,7 @@ if (isset($class)) {
 // Prepare title
 $title = isset($title) && !empty($title)
     ? $title
-    : t("Table Of Content");
+    : t("Innehållsförteckning");
 
 
 

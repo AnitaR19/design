@@ -44,7 +44,7 @@ Resultat
 -----------------------
 
 #### Lunds Universitet
-[FIGURE src="image/LU.png"]
+[FIGURE src="image/kmom04/LU.png"]
 
 <table style="border-spacing: 4px; border-collapse: separate">
 <tr>
@@ -72,7 +72,7 @@ Georgia serif. Brödtexten är Arial sans-serif.
 
 
 ### Coop
-[FIGURE src="image/COOP.png"]
+[FIGURE src="image/kmom04/COOP.png"]
 
 <table style="border-spacing: 4px; border-collapse: separate">
 <tr>
@@ -94,7 +94,7 @@ typsnitten är av typen sans-serif.
 
 
 #### Stadium
-[FIGURE src="image/STADIUM.png"]
+[FIGURE src="imagIe/kmom04/STADUM.png"]
 
 <table style="border-spacing: 4px; border-collapse: separate">
 <tr>

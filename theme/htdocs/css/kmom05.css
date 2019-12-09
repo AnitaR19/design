@@ -1,7 +1,7 @@
 /*!
- * Stylesheet for design kmom04.
+ * Stylesheet for design kmom05.
  *
- * This stylesheet is for the design course kmom04 themes with different color themes.
+ * This stylesheet is for the design course kmom05 themes with Cimage and FIGURE.
  */
 /**
  * Import mixins.
@@ -426,7 +426,7 @@ a.rm-button.rm-clicked .rm-button-face-2 {
  * Menu layout for the desktop variant, usually full width of browser.
  */
 .rm-desktop ul {
-  background-color: #000;
+  background-color: #e3e3e3;
 }
 .rm-desktop li {
   position: relative;
@@ -605,7 +605,7 @@ a.rm-button.rm-clicked .rm-button-face-2 {
  */
 html {
   overflow-y: scroll;
-  background-color: #1f1f1f;
+  background-color: #fff;
   font-size: 100%;
 }
 @media (min-width: 64em) {
@@ -616,8 +616,8 @@ html {
 body {
   margin: 0;
   padding: 0;
-  color: #fff;
-  background-color: #1f1f1f;
+  color: #000;
+  background-color: #fff;
   font: 16px/1.375 'Open Sans', sans-serif;
 }
 img {
@@ -752,7 +752,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Dancing Script', cursive;
+  font-family: 'Raleway', sans-serif;
   margin-top: 22px;
   margin-bottom: 22px;
 }
@@ -1278,15 +1278,8 @@ figure.figure.right {
 .row {
   max-width: 100%;
 }
-/* Specific layout kmom04 dark */
-/* Fonts in dark */
-@font-face {
-  font-family: 'Dancing Script';
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url(https://fonts.gstatic.com/s/dancingscript/v13/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7BMSo3Sup5.ttf) format('truetype');
-}
+/* Layout kmom04 minimalistic */
+/* Fonts in minimalistic */
 @font-face {
   font-family: 'Raleway';
   font-style: normal;
@@ -1303,7 +1296,7 @@ figure.figure.right {
 }
 html {
   overflow-y: scroll;
-  background-color: #1f1f1f;
+  background-color: #fff;
   font-size: 100%;
 }
 @media (min-width: 64em) {
@@ -1314,8 +1307,8 @@ html {
 body {
   margin: 0;
   padding: 0;
-  color: #fff;
-  background-color: #1f1f1f;
+  color: #000;
+  background-color: #fff;
   font: 16px/1.375 'Open Sans', sans-serif;
 }
 hr::after {
@@ -1334,63 +1327,72 @@ hr::after {
   clear: both;
 }
 .inner-wrap {
-  background-color: #1f1f1f;
+  background-color: #fff;
 }
 .outer-wrap-header {
-  background-color: #000;
+  background-color: #fff;
 }
 .outer-wrap-flash {
-  background-color: #1f1f1f;
+  background-color: #fff;
 }
 .outer-wrap-footer {
-  background-color: #1f1f1f;
+  background-color: #fff;
 }
 .inner-wrap-header,
 .inner-wrap-footer {
   background-color: transparent;
 }
+.inner-wrap-footer {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1100px;
+}
 /* Flash */
 .inner-wrap-flash {
-  background-color: #000;
+  background-color: #fff;
 }
 /* Breadcrumb */
 .region-breadcrumb {
-  background-color: #1f1f1f;
+  background-color: #fff;
 }
+/* Main */
 .region-main {
   min-height: 30rem;
+}
+.footer-column {
+  display: inline;
+  float: left;
+  width: 32.29166667%;
+  margin-left: 0.52083333%;
+  margin-right: 0.52083333%;
 }
 /* Links*/
 a {
   text-decoration: underline;
-  color: #fff;
+  color: #000;
 }
 a:visited {
   color: #c3c3c3;
 }
 a:hover {
-  color: #0d09f3;
+  color: #CC0A0E;
 }
 /* Navbar*/
 .site-logo-text a,
 .rm-desktop li a {
   text-decoration: none;
-  color: #fff;
+  color: #000;
 }
 .rm-desktop li a:hover {
   text-decoration: none;
-  color: #0d09f3;
+  color: #CC0A0E;
 }
 /* Other text styles */
 code {
-  background-color: #000;
+  background-color: #e3e3e3;
 }
-h2,
-h3,
-h4 {
-  font-family: 'Raleway', sans-serif;
+h1 {
   text-transform: uppercase;
-  color: #bb9f03cb;
 }
 /**
  * Layout style for general structure of header, navbar, main, footer
