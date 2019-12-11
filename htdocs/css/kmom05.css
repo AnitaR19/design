@@ -1468,6 +1468,21 @@ h1 {
   }
 }
 /**
+ * Responsive figures.
+ */
+@media screen and (max-width: 733px) {
+  .left.w50,
+  .right.w50 {
+    margin-left: 0;
+    margin-right: 0;
+    float: none;
+  }
+  .left.w50 img,
+  .right.w50 img {
+    width: 733.33333333px;
+  }
+}
+/**
  * Show off the regions used in the website, to ease styling.
  */
 .regions .outer-wrap {

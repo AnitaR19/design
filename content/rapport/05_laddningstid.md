@@ -6,15 +6,23 @@ Rapport kmom05
 Syfte
 -----------------------
 
-Tre olika webbplatser valdes ut och testades för hur snabbt de laddades och 
-om innehållet kunde förbättras för att optimera laddningstid och användbarhet.
+Tre olika webbplatser undersöktes för hur snabbt de laddades, 
+och om innehållet kunde förbättras för att optimera laddningstid och användbarhet.
 
 
 
 Urval
 -----------------------
-Tre skånska städers (Malmös, Landskronas och Simrishamns) officiella webbplatser undersöktes.
-För varje stad testades dess biblioteksida.
+Jag valde att undersöka tre skånska städers, Malmös, Landskronas och Simrishamns, officiella webbplatser.
+
+För varje stad testades tre sidor
+
+- bilbliotek
+
+- grundskola
+
+- bygga och bo/flytta hit
+
 
 
 ### https://malmo.se/
@@ -23,7 +31,9 @@ För varje stad testades dess biblioteksida.
 
 [https://malmo.se/Service/Utbildning-och-forskola/Grundskola.html](https://malmo.se/Service/Utbildning-och-forskola/Grundskola.html)
 
-[https://malmo.se/Service/Bygga-och-bo/Bygga-nytt--bygga-till.html](https://malmo.se/Service/Bygga-och-bo/Bygga-nytt--bygga-till.html)
+[https://malmo.se/Service/Bygga-och-bo](https://malmo.se/Service/Bygga-och-bo)
+
+
 
 ### https://landskrona.se/
 [FIGURE src="image/kmom05/landskrona.png"]
@@ -43,36 +53,71 @@ För varje stad testades dess biblioteksida.
 
 [https://www.simrishamn.se/bo-och-bygga](https://www.simrishamn.se/bo-och-bygga)
 
+
+
 Metod
 -----------------------
 
-Beskriv vilka verktyg du använde och hur du utförde arbetet för att samla in dina mätvärden.
- - Mät med Google Pagespeed både Mobile och Desktop.
+Google PageSpeed Insights användes för att analysera och betygsätta webbplatserna. Analysen ger en prestanda-poäng mellan 1 och 100 där
+0-49 = långsam, 50-89 = medelprestanda och 90-100 = snabb.
+Laddningstid och storlek testades med Google devtools.
+
 
 
 Resultat
 -----------------------
 
-Notera de betyg som ges med Google Pagespeed både Mobile och Desktop.
-För varje sida, mät med devtools flik networks och notera sidans laddningstid tillsammans med antalet resurser som laddas samt sidans totala storlek. För varje sida gör mätningen tre gånger och ta snittet av mätvärdena.
-Diskutera och skriv en mening om hur webbplatsen kan förbättra sig.
-
-Skapa ett excelark, till exempel Google Kalkylark, för att spara dina mätningar i.
-För allt du nu skall mäta, dokumentera det i excelarket.
-Länka till ditt excelark så man ser rådatan.
+All mätdata finns här:
 
 [https://docs.google.com/spreadsheets/d/1nbcfLjUs11vikSIJtv8QRhbwAdU-ztYJ6jDS7I1l_1g/edit?usp=sharing](https://docs.google.com/spreadsheets/d/1nbcfLjUs11vikSIJtv8QRhbwAdU-ztYJ6jDS7I1l_1g/edit?usp=sharing)
+
+
+##### PageSpeeds poäng för dator
+- Malmö: 91
+- Landskrona: 76
+- Simrishamn: 76
+
+##### PageSpeed poäng för mobil
+- Malmö: 47
+- Landskrona: 35
+- Simrishamn: 31
+
+
+##### Laddningstider (sekunder)
+- Malmö: 1.25
+- Landskrona: 4.57
+- Simrishamn: 3.20
+
 
 
 Analys
 -----------------------
 
-Sammanfatta ditt resultat i en analys och skriv om vilka de vanligaste förbättringsåtgärderna verkar vara för ditt urval av webbplatser.
+Webbplatsernas rangordning baserat på mätvärden
 
-Rangordna dina webbplatser baserat på deras mätvärden och utse en vinnare i testet och kommentera resultatet.
+1. Malmö stad
+2. Simrishamn
+3. Landskrona
 
-Bestäm en gräns för absolut laddningstid som du själv uppfattar som snabb eller långsam webbplats. Skriv en mening om hur ditt urval av webbplatser klarar ditt gränsvärde och hur du upplever webbplatsernas snabbhet, rent generellt, i ditt urval.
+De vanligaste förbättringsåtgärderna för webbplatserna är
 
+
+- Ta bort resurser som blockerar renderingen
+
+- Minska svarstiderna från servern
+
+- Ta bort oanvänd CSS
+
+- Skjut upp inläsningen av bilder som inte visas på skärmen
+
+
+Värt att notera är att Malmö stad som var den snabbaste av de tre webbplatserna inte hade
+"minska svarstiderna från servern" på sin lista över förbättringsåtgärder.
+
+Webbplasernas rangordning bestämdes dels efter poäng, men Landskrona hamnades sist på grund av längsta laddningstiden.
+Den absoluta laddningstiden bör nog vara under 2 sekunder och den enda webbplatsen som klarade den gränsen var Malmö stad.
+Jag har inte testat att ladda sidorna på mobil, men på dator så upplevde jag Simrishamns och framför allt Landskronas
+webbplats som väldigt sega att ladda. 
 
 
 

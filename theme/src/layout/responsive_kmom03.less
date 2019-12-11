@@ -68,3 +68,25 @@
         #desinax-vgrid.push(0);
     }
 }
+
+/**
+ * Responsive figures.
+ */
+
+@maxContentWidth: 1100px;
+
+&.left,
+&.right {
+    @media screen {
+        @media (max-width: round(@maxContentWidth * 2 / 3)) {
+            &.w50 {
+                margin-left: 0;
+                margin-right: 0;
+                float: none;
+                img {
+                    width: @maxContentWidth * 2 / 3;
+                }
+            }
+        }
+    }
+}
