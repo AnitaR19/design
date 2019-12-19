@@ -11,12 +11,13 @@ category:
     - design
     - dagens bild
 published: "2010-07-21"
+        
 ---
 
 Sommarlov
 ==================================
 
-[FIGURE src="image/kmom05/807.jpg?w=300&h=200&area=25,50,30,0" caption="Dressintur mellan Sankt Olof och Gyllebo en solig sommardag i juli."] 
+[FIGURE src="image/kmom05/807.jpg?w=300&h=200&area=25,50,30,0" class="center" caption="Dressintur mellan Sankt Olof och Gyllebo en solig sommardag i juli."] 
 <!--more-->
 
 

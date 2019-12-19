@@ -84,19 +84,48 @@ return [
             "submenu" => [
                 "items" => [
                     [
-                        "text" => "Kmom04",
+                        "text" => "Färgschema",
                         "url" => "rapport/fargschema",
                         "title" => "Rapport kmom04.",
                     ],
                     [
-                        "text" => "Kmom05",
+                        "text" => "Laddningstid",
                         "url" => "rapport/laddningstid",
                         "title" => "Rapport kmom05.",
                     ],
                     [
-                        "text" => "Kmom06",
-                        "url" => "rapport/kmom06",
+                        "text" => "Designprincip",
+                        "url" => "rapport/designprincip",
                         "title" => "Rapport kmom06.",
+                    ],
+                    [
+                        "text" => "Designelement",
+                        "url" => "rapport/designelement",
+                        "title" => "Rapport kmom06.",
+                    ],
+                    [
+                        "text" => "Designprinciper",
+                        "url" => "rapport/designprinciper",
+                        "title" => "Rapport kmom06.",
+                    ],
+                ],
+            ],
+        ],
+        [
+            "text" => "Testsida",
+            "url" => "testsida",
+            "title" => "Testsidor.",
+            "submenu" => [
+                "items" => [
+                    [
+                        "text" => "Risgrynsgröt",
+                        "url" => "testsida/testsida1",
+                        "title" => "risgrynsgröt",
+                    ],
+                    [
+                        "text" => "Pepparkaka",
+                        "url" => "testsida/testsida2",
+                        "title" => "pepparkaka",
                     ],
                 ],
             ],
@@ -115,11 +144,6 @@ return [
             "text" => "Verktyg",
             "url" => "verktyg",
             "title" => "Verktyg och möjligheter för utveckling.",
-        ],
-        [
-            "text" => "Test-sida",
-            "url" => "testsida",
-            "title" => "Test-sida för olika konstruktioner.",
         ],
     ],
 ];

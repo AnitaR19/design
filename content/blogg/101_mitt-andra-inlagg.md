@@ -16,7 +16,7 @@ published: "2019-04-20"
 Påsk på Österlen
 ==================================
 
-[FIGURE src="image/kmom05/879.jpg?w=300&h=200&area=15,20,30,20" caption="Stenshuvud, paradiset på jorden."] 
+[FIGURE src="image/kmom05/879.jpg?w=300&h=200&area=15,20,30,20" class="center" caption="Stenshuvud, paradiset på jorden."] 
 <!--more-->
 
 

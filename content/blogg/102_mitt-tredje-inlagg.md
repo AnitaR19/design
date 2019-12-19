@@ -16,7 +16,7 @@ published: "2019-12-07"
 I väntan på julen
 ==================================
 
-[FIGURE src="image/kmom05/apelsin.jpg?w=300&h=200&area=20,40,20,0" caption="Boostar inför julen med c-vitamin" ] 
+[FIGURE src="image/kmom05/apelsin.jpg?w=300&h=200&area=20,40,20,0" class="center" caption="Boostar inför julen med c-vitamin" ] 
 <!--more-->
 
 

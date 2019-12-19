@@ -85,19 +85,48 @@ return [
             "submenu" => [
                 "items" => [
                     [
-                        "text" => "Kmom04",
+                        "text" => "Färgschema",
                         "url" => "rapport/fargschema",
-                        "title" => "Rapport för kmom04",
+                        "title" => "Rapport kmom04.",
                     ],
                     [
-                        "text" => "Kmom05",
+                        "text" => "Laddningstid",
                         "url" => "rapport/laddningstid",
-                        "title" => "Rapport för kmom05",
+                        "title" => "Rapport kmom05.",
                     ],
                     [
-                        "text" => "Kmom06",
-                        "url" => "rapport/kmom06",
-                        "title" => "Rapport för kmom06",
+                        "text" => "Designprincip",
+                        "url" => "rapport/designprincip",
+                        "title" => "Rapport kmom06.",
+                    ],
+                    [
+                        "text" => "Designelement",
+                        "url" => "rapport/designelement",
+                        "title" => "Rapport kmom06.",
+                    ],
+                    [
+                        "text" => "Designprinciper",
+                        "url" => "rapport/designprincipier",
+                        "title" => "Rapport kmom06.",
+                    ],
+                ],
+            ],
+        ],
+        [
+            "text" => "Testsida",
+            "url" => "testsida",
+            "title" => "Testsidor.",
+            "submenu" => [
+                "items" => [
+                    [
+                        "text" => "Risgrynsgröt",
+                        "url" => "testsida/testsida1",
+                        "title" => "Risgrynsgröt",
+                    ],
+                    [
+                        "text" => "Pepparkaka",
+                        "url" => "testsida/testsida2",
+                        "title" => "Pepparkaka",
                     ],
                 ],
             ],

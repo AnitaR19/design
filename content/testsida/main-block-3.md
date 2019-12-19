@@ -1,0 +1,1 @@
+[FIGURE src="image/julkulor.jpg?width=300" class="right"]

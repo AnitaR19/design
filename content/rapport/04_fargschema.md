@@ -43,7 +43,7 @@ Verktyg som använts är kurslitteraturen och Adobe's color wheel.
 Resultat
 -----------------------
 
-#### Lunds Universitet
+### Lunds Universitet
 [FIGURE src="image/kmom04/LU.png"]
 
 <table style="border-spacing: 4px; border-collapse: separate">
@@ -93,7 +93,7 @@ en egen font som man callar CoopNew, till brödtexten Akkurat. Båda
 typsnitten är av typen sans-serif.
 
 
-#### Stadium
+### Stadium
 [FIGURE src="imagIe/kmom04/STADUM.png"]
 
 <table style="border-spacing: 4px; border-collapse: separate">
@@ -125,7 +125,7 @@ används även som fontfärger.
 Analys
 -----------------------
 
-#### Lunds Universitet
+### Lunds Universitet
 Den återkommande färgen på Lunds Universitet finns i Universitetets logotype
 och är en brun färg som påminner om vörtbröd. Den andra färgen i logotypen är
 marinblå. Dessa färger är på motsatta sidor i färghjulet, dvs nästan komplimentära.
@@ -139,7 +139,7 @@ känns lite gammaldags. Jag vet inte riktigt vad de vill förmedla med färgerna
 Trygghet, stabilitet och traditioner kombinerat med ungdomlighet och ljusa framtidsutsikter?
 
 
-#### Coop
+### Coop
 Coops webbplats är monokromt grön. Grönt är den snällaste färgen för ögat och den
 ska ha en lugnande och uppfriskande effekt. Den symboliserar också natur och miljövänlighet,
 vilket är en viktigt faktor idag. Många konsumenter vill göra klimatsmarta val och
@@ -148,7 +148,7 @@ det endast vitt, grått och svart som används, vilket ger ett avskalat och lung
 Här används endast sans serif typsnitt, runda mjuka bokstäver som är lätta att läsa. 
 
 
-#### Stadium
+### Stadium
 Stadium använder sig nästan uteslutande av "icke-färgerna" vitt, grått och svart på sin
 webbplats. Jag undrar lite om det är på grund av Black Friday eller om det alltid är så.
 Svart är kanske en lite hård färg för en sportaffär? Med svart förmedlar man en känsla av

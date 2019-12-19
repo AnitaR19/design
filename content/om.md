@@ -19,16 +19,12 @@ views:
                 route: block/om-redovisa
 ---
 
+[FIGURE src="image/milano.jpg?w=400" class="right" caption="Bosco Verticale, Milano"]
 
 Om
 =========================
 
-
 PA1436 Teknisk webbdesign och användbarhet
 ----------------------------------------------------
 
-
 Kursen ska ge studenten praktisk förmåga att hantera de tekniker, verktyg och miljöer som används för att designa och göra en webbplats användbar.
-
-
-[FIGURE src="image/umbrellas.jpg" class="left"]
