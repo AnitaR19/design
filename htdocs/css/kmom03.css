@@ -1,7 +1,7 @@
 /*!
  * Stylesheet for design kmom03.
  *
- * This stylesheet is for the design course and kmom03 where we use grid.
+ * This stylesheet is for the design course and kmom03 where we introduce grid.
  */
 /**
  * Import mixins.
@@ -1092,7 +1092,7 @@ h4 {
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: local('Solway Regular'), local('Solway-Regular'), url(https://fonts.gstatic.com/s/solway/v1/AMOQz46Cs2uTAOCmhXo5.ttf) format('truetype');
+  src: local('Solway Regular'), local('Solway-Regular'), url(https://fonts.gstatic.com/s/solway/v2/AMOQz46Cs2uTAOCmhXo5.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Open Sans';
@@ -1218,6 +1218,7 @@ a:hover {
   width: 98.95833333%;
   margin-left: 0.52083333%;
   margin-right: 0.52083333%;
+  margin-top: 66px;
   text-align: center;
 }
 /* Breadcrumb */
@@ -1399,6 +1400,17 @@ figure.figure.right {
     width: 98.95833333%;
     margin-right: 0.52083333%;
     margin-left: 0.52083333%;
+  }
+}
+@media screen and (max-width: 520px) {
+  .stylechooser,
+  .stylechooser select {
+    font-size: 0.8rem;
+    padding: 0;
+  }
+  .stylechooser p {
+    font-size: 0.9rem;
+    padding: 0;
   }
 }
 /**

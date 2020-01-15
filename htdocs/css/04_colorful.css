@@ -1,7 +1,7 @@
 /*!
  * Stylesheet for design kmom04.
  *
- * This stylesheet is for the design course kmom04 themes with different color themes.
+ * Stylesheet for the design course kmom04 with different color themes.
  */
 /**
  * Import mixins.
@@ -1165,6 +1165,7 @@ h4 {
   width: 98.95833333%;
   margin-left: 0.52083333%;
   margin-right: 0.52083333%;
+  margin-top: 66px;
   text-align: center;
 }
 /* Breadcrumb */
@@ -1529,6 +1530,17 @@ code {
     width: 98.95833333%;
     margin-right: 0.52083333%;
     margin-left: 0.52083333%;
+  }
+}
+@media screen and (max-width: 520px) {
+  .stylechooser,
+  .stylechooser select {
+    font-size: 0.8rem;
+    padding: 0;
+  }
+  .stylechooser p {
+    font-size: 0.9rem;
+    padding: 0;
   }
 }
 /**

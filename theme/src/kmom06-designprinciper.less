@@ -1,7 +1,7 @@
 /*!
  * Stylesheet for design kmom06.
  *
- * This stylesheet is for the design course kmom04 themes designelements.
+ * This stylesheet is for the design course kmom06 design principles.
  */
 
 
@@ -33,8 +33,11 @@
 
 
 /**
- * Internal self contained modules, save in directory module/.
+ * Font Awesome.
  */
+ @import "@fortawesome/fontawesome-free/less/fontawesome.less";
+ @import "@fortawesome/fontawesome-free/less/solid.less";
+ @import "@fortawesome/fontawesome-free/less/brands.less";
 
 
  
@@ -52,46 +55,29 @@
  @import "src/@desinax/typographic-grid/less/typography-defaults.less";
 
  
-/**
- * Base style to affect HTML elements on a general scale.
- */
-@import "base/base_03.less";
-
 
 /**
  * Import the vertical grid.
  */
 @import "@desinax/vertical-grid/less/grid.less";
 @import "layout/vgrid.less";
-@import "layout/layout_kmom07.less";
-@import "layout/layout_kmom08.less";
+
 
 /**
- * Layout style for general structure of header, navbar, main, footer
- * and other regions of the page including route specific styles.
+ * Base style to affect HTML elements on a general scale.
  */
+ @import "base/base_03.less";
+
+
+/**
+* My own settings, not currently in their own module.
+*/
+
+@import "layout/layout_kmom07.less";
+
+@import "layout/layout_kmom08.less";
+
+@import "layout/my-regions.less";
 
 @import "layout/responsive_kmom03.less";
 //@import "layout/regions.less";     // To add style for ?regions
-
-
-/**
- * Font Awesome.
- */
- @import "@fortawesome/fontawesome-free/less/fontawesome.less";
- @import "@fortawesome/fontawesome-free/less/solid.less";
- @import "@fortawesome/fontawesome-free/less/brands.less";
-
-
-
-/**
- * Base styles, overrides styles in"base/base.less".
- */
-
-
-
- /**
- * My own settings, not currently in their own module.
- */
-
- @import "layout/my-regions.less";
